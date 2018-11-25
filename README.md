@@ -35,7 +35,7 @@ R-sq: R-square value
 Adj. R-sq: Adjusted R-square value
 MSE: Mean-square error
 
-|   |                                                      | Const |  x  |   x^2   |  R-Sq  | Adj. R-sq |   MSE   |
+|  Case |                                                      | Const |  x  |   x^2   |  R-Sq  | Adj. R-sq |   MSE   |
 |:-:|------------------------------------------------------|:-----:|:---:|:-------:|:------:|:---------:|:-------:|
 | 1 | Linear regression (without constant, without CV)     |   NA  | Sig |    NA   | 88.00% |   87.80%  |  2143.7 |
 | 2 | Linear regression (without constant, with CV)        |   NA  | Sig |    NA   | 86.50% |   86.30%  | 2303.14 |
@@ -62,7 +62,7 @@ As you can see, I built models with permutation and combinations of:
 
 The first four columns are the different products that comes in the truck and the last column is the Y variable.
 
-|    	|                                          	|   	| Const 	|  x1 	|    x2   	|    x3   	|  x4 	|   R-sq  	| Adj R-sq 	|   MSE   	| Accuracy 	| Avg. error 	|   	|
+| Case |                                          	|   	| Const 	|  x1 	|    x2   	|    x3   	|  x4 	|   R-sq  	| Adj R-sq 	|   MSE   	| Accuracy 	| Avg. error 	|   	|
 |----	|------------------------------------------	|---	|:-----:	|:---:	|:-------:	|:-------:	|:---:	|:-------:	|:--------:	|:-------:	|:--------:	|:----------:	|:-:	|
 | 10 	| MLR (without constant, without CV)       	|   	|   NA  	| Sig 	|   Sig   	|   Sig   	| Sig 	|  89.10% 	|  88.50%  	| 1945.65 	|          	|            	|   	|
 | 11 	| MLR (without constant, with CV)          	|   	|   NA  	| Sig 	|   Sig   	|   Sig   	| Sig 	|  87.80% 	|  87.00%  	| 2090.66 	|          	|            	|   	|
@@ -81,7 +81,7 @@ The first four columns are the different products that comes in the truck and th
 |    	|                                          	|   	|       	|     	|         	|         	|     	|  12.00% 	|          	|   2038  	|  68.28%  	|   36.0341  	|   	|
 
 
-|    	|                                       	| Parameter tuning 	|   Rsq  	|   	|   MSE   	|   MAE  	|  MAPE  	| Accuracy 	|
+| Case|                                       	| Parameter tuning 	|   Rsq  	|   	|   MSE   	|   MAE  	|  MAPE  	| Accuracy 	|
 |----	|---------------------------------------	|:----------------:	|:------:	|:-:	|:-------:	|:------:	|:------:	|:--------:	|
 | 24 	| SVR                                   	|   Before tuning  	|  4.39% 	|   	| 2162.87 	|  34.4  	| 36.30% 	|  63.70%  	|
 |    	|                                       	|        HP1       	| 21.00% 	|   	|   1781  	|  32.4  	| 33.40% 	|  66.56%  	|
