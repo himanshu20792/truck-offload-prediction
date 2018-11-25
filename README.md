@@ -1,9 +1,9 @@
-### Machine-Learning-Implementation
+## Machine-Learning-Implementation
 
 An implementation of a complete machine learning solution in Python on a real-world dataset. 
 
 
-### Problem statement:-
+## Problem statement:-
 
 The project is based on operations of a distribution center. The goal of this project is build a model that will predict how long it will take to complete the put-away operaition at the DC based on the inputs.
 
