@@ -29,7 +29,6 @@ Using the above collected data, built the folllowing machine learning models, as
 
 CV: Cross-validation
 
-				  						Const	x	x^2	R-Sq	Adj.R-sq   MSE
 1	Linear regression (without constant, without CV)			NA	Sig	NA	88.00%	87.80%	  2143.7
 2	Linear regression (without constant, with CV)				NA	Sig	NA	86.50%	86.30%	  2303.14
 3	Linear regression (with constant, without CV)				Sig	Sig	NA	42.70%	42.00%	  1611.25
