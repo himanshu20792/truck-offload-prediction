@@ -13,7 +13,7 @@ Data was collected over a month by the receivers present at the DC who are unloa
 ## Model building :-
 
 This is a regression problem since I am trying to predict the time taken which is a numeric and a continuous variable.
-I wnated to start small initially, so I started with one regressor varible. I.e. Just the input variable is justntotal number The input variables are the number of different types of products that come in the trucks.
+I wanted to start small initially, so I started with one regressor varible. I.e. Just the input variable is justntotal number The input variables are the number of different types of products that come in the trucks.
 
 Here is a sample of the data: (Values shownn are just for illustration puposes)
 
